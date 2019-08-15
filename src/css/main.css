@@ -3,7 +3,7 @@
   padding: 1rem;
   display:grid;
   border: white;
-  background:grey;
+  background: #595959;;
   grid-template-areas: 'btn btn btn';
   grid-template-columns: repeat(3,1fr);
   z-index: 3;
@@ -44,7 +44,7 @@ h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
-  background: rgba(52, 57, 65, 0.5);
+  background: #703030;
 }
 
 a {

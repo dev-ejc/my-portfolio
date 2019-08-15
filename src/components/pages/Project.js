@@ -1,39 +1,42 @@
 import React from "react";
 
 const Project = props => {
+
+  const links = {
+    shigan:"http://www.ichooseu.co/",
+    ichooseu:"http://www.shigan.co",
+    tobehonest:"to-be-honest.herokuapp.com"
+  }
+
   return (
-    <div id="projects">
+    <main>
       <h1 className="lg-heading">Projects</h1>
       <h2 className="sm-heading">
-        <span className="text-secondary" />
       </h2>
-      <div className="project-info">
-        <div className="project">
-          <h3>Project I</h3>
-          <h7>Research Intern</h7>
+      <div className="about-info">
+        <div className="job">
+          <h3>Shigan</h3>
+          <a href={links.shigan}>{links.shigan}</a>
           <p>
-            Researched Money laundering legislation and quantitative counter
-            terrorist financing strategies.
+            Stock portfolio application.
           </p>
         </div>
-        <div className="project">
-          <h3>Project I</h3>
-          <h7>Research Intern</h7>
+        <div className="job">
+          <h3>To Be Honest</h3>
+          <a href={links.tobehonest}>{links.tobehonest}</a>
           <p>
-            Researched Money laundering legislation and quantitative counter
-            terrorist financing strategies.
+            News sentiment application
           </p>
         </div>
-        <div className="project">
-          <h3>Project I</h3>
-          <h7>Research Intern</h7>
+        <div className="job">
+          <h3>I Choose U</h3>
+          <a href={links.ichooseu}>{links.ichooseu}</a>
           <p>
-            Researched Money laundering legislation and quantitative counter
-            terrorist financing strategies.
+            Pokemon database application
           </p>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

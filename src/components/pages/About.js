@@ -6,7 +6,7 @@ const About = () => {
       <h1 className="lg-heading">
         Career
       </h1>
-      {/* <h2 className="sm-heading">I am a student finding his path.</h2> */}
+      <h2 className="sm-heading"></h2>
       <div className="about-info container">
       <div className="job">
           <h3>Amazon Robotics</h3>

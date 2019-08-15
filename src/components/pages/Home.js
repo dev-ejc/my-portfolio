@@ -15,9 +15,11 @@ const Home = () => {
     <main className="home" style={homeStyle}>
         <div>
           <h1 className="lg-heading">
-            {firstName}
-            <span className="text-secondary">{' '}{lastName}</span>
+            {firstName}{' '}{lastName}
+            {/* <span className="text-secondary">{' '}{lastName}</span> */}
           </h1>
+          <h2 className="sm-heading">
+      </h2>
           {/* <h1 className="sm-heading"><i className="fas fa-drafting-compass fa-5x"></i>{tag}</h1> */}
           <div className="icons">
             <a href={linkedin}>

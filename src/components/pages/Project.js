@@ -5,7 +5,7 @@ const Project = props => {
   const links = {
     shigan:"http://www.ichooseu.co/",
     ichooseu:"http://www.shigan.co",
-    tobehonest:"to-be-honest.herokuapp.com"
+    tobehonest:"http://www.to-be-honest.herokuapp.com"
   }
 
   return (

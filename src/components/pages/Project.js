@@ -28,7 +28,7 @@ const Project = props => {
           <h1>To Be Honest</h1>
           <h4>News Sentiment Scoring Application</h4>
           <p>
-          Search engine that scores general news sentiment of topic using a natural language processing library. 
+          Search engine that scores general news sentiment of a topic using a natural language processing library. 
           </p>
           </div>
           </a>

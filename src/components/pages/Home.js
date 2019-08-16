@@ -6,11 +6,11 @@ const Home = () => {
     lastName: 'Chung',
     linkedin:"https://linkedin.com/in/ericjchung",
     github:"https://github.com/ericjchung",
-    resume:"https://drive.google.com/file/d/1h8ug9MbCbV3bK2OJuwPp3ke-JyRdEaEY/view?usp=sharing",
+    resume:"https://drive.google.com/file/d/1ABxl4xoXzHXVrsualChheJU6tf63Lpj6/view?usp=sharing",
     tag:"Moving Forward"
   })
 
-  const { firstName, lastName, linkedin, github,resume, tag } = state
+  const { firstName, lastName, linkedin, github,resume } = state
   return (
     <main className="home" style={homeStyle}>
         <div>

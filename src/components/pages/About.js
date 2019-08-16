@@ -20,7 +20,7 @@ const About = () => {
         <div className="job">
           <h3>MIT Federal Credit Union</h3>
           <h3>Internal Auditor</h3>
-          <h4>September 2017 - January 2018</h4>
+          <h4>October 2017 - February 2018</h4>
           <p>
             Conducted risk controls and reports across newly opened accounts.
           </p>
@@ -39,7 +39,7 @@ const About = () => {
         <div className="job">
           <h3>Korea Financial Intelligence Unit</h3>
           <h3>Intern</h3>
-          <h4>May 2016 - August 2016</h4>
+          <h4>May 2016 - July 2016</h4>
           <p>
             Researched Money laundering legislation and quantitative counter
             terrorist financing strategies.

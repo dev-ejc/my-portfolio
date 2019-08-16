@@ -29,7 +29,9 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
   margin: 0;
   font-weight: 400;
 }
@@ -65,7 +67,8 @@ header {
 }
 
 main {
-  padding: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
   min-height: 90vh;
 }
 
@@ -98,31 +101,17 @@ main .icons a:hover {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
   scroll-snap-align: center;
+  margin-bottom: 5rem;
 }
 
 .job {
   background: #3a4149;
   padding: 1rem;
-  border-bottom: #703030 0.3rem solid;
+  border-top: white 0.1rem solid;
+  border-bottom: white 0.1rem solid;
 }
 
-.project-info {
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-}
-
-.project {
-  padding: 1rem;
-  background: #703030;
-  color: #eeeeee;
-}
-
-.project:hover {
-  opacity: 0.5;
-  color: #703030;
+.job:hover {
   border-color: #703030;
   transition: all 0.25s ease-out;
 }

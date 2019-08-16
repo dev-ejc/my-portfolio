@@ -6,7 +6,7 @@ const Home = () => {
     lastName: 'Chung',
     linkedin:"https://linkedin.com/in/ericjchung",
     github:"https://github.com/ericjchung",
-    resume:"",
+    resume:"https://drive.google.com/file/d/1h8ug9MbCbV3bK2OJuwPp3ke-JyRdEaEY/view?usp=sharing",
     tag:"Moving Forward"
   })
 

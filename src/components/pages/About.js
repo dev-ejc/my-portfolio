@@ -10,7 +10,8 @@ const About = () => {
       <div className="about-info container">
       <div className="job">
           <h3>Amazon Robotics</h3>
-          <h7>Solutions Integration Analyst</h7>
+          <h3>Solutions Integration Analyst</h3>
+          <h4>July 2018 - November 2018</h4>
           <p>
             Designed and managed Amazon fulfillment center performance and monitoring tools.
           </p>
@@ -18,7 +19,8 @@ const About = () => {
 
         <div className="job">
           <h3>MIT Federal Credit Union</h3>
-          <h7>Internal Auditor</h7>
+          <h3>Internal Auditor</h3>
+          <h4>September 2017 - January 2018</h4>
           <p>
             Conducted risk controls and reports across newly opened accounts.
           </p>
@@ -26,7 +28,8 @@ const About = () => {
 
         <div className="job">
           <h3>Wellington Management</h3>
-          <h7>Guideline Monitoring Analyst</h7>
+          <h3>Guideline Monitoring Analyst</h3>
+          <h4>January 2017 - July 2017</h4>
           <p>
             Governed portfolio activity using compliance software
             and leveraged technical skills to create portfolio monitoring tools.
@@ -35,10 +38,11 @@ const About = () => {
 
         <div className="job">
           <h3>Korea Financial Intelligence Unit</h3>
-          <h7>Intern</h7>
+          <h3>Intern</h3>
+          <h4>May 2016 - August 2016</h4>
           <p>
-            Researched Money laundering legislation, quantitative counter
-            terrorist financing strategies and drafted speeches at the annual FATF plenary.
+            Researched Money laundering legislation and quantitative counter
+            terrorist financing strategies.
           </p>
         </div>
       </div>

@@ -1,5 +1,5 @@
 ## Purpose:
-The following is a static portfolio website to showcase to employers and clients. Feel free to reuse or utilize the framework to your choosing.
+The following is a static portfolio website to showcase to employers and clients. Feel free to reuse or utilize the framework to your liking.
 
 ## Stack:
 Frontend Framework : React
